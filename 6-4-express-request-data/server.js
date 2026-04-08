@@ -111,6 +111,10 @@ const app = express();
 
 
 // create express app instance to create web server
+app.get("/", (req, res) => {
+  res.json({ ok: true, msg: "server up" });
+});
+
 
 
 
