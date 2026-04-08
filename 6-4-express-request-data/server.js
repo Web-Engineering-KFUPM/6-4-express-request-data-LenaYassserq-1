@@ -105,6 +105,9 @@ LAB SETUP INSTRUCTIONS
  */
 
 //import express
+import express from "express";
+
+const app = express();
 
 
 // create express app instance to create web server
